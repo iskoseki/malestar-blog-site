@@ -1,4 +1,4 @@
-# Koseki site 📄
+# Malestar blog 📄
 
 ## 💻 Tech Stack
 
@@ -53,15 +53,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run sync`         | Generates TypeScript types for all Astro modules. [Learn more](https://docs.astro.build/en/reference/cli-reference/#astro-sync). |
 | `npm run cz`           | Commit code changes with commitizen                                                                                              |
 | `npm run lint`         | Lint with ESLint                                                                                                                 |
-
-## ✨ Feedback & Suggestions
-
-If you have any suggestions/feedback, you can contact me via [my email](mailto:contact@satnaing.dev). Alternatively, feel free to open an issue if you find bugs or want to request new features.
-
-## 📜 License
-
-Licensed under the MIT License, Copyright © 2023
-
----
-
-Made with 🤍 by [Sat Naing](https://satnaing.dev) 👨🏻‍💻
