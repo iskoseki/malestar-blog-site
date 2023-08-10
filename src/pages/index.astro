@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
+      <h1>Malestar</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -41,19 +41,16 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        Apasionada estudiante de Periodismo, enfocada en transmitir información de manera comprensible, fresca y cautivadora. He colaborado en medios como el Boletín EnRedando, la Revista Inquieta y Radio FMLaHormiga, donde he tenido la oportunidad de trabajar con grandes colegas. Tambien escribo independientemente y soy creadora del podcast "Malestar" disponible en Spotify. Me emociona seguir compartiendo historias y conectar con el mundo a través de mi trabajo.
       </p>
       <p>
-        Read the blog posts or check
+        Podes leer mi última crónica
         <LinkButton
           className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
+          href="https://www.enredando.org.ar/2023/08/07/arriba-la-wiphala-abajo-la-reforma-inconstitucional/"
         >
-          README
-        </LinkButton> for more info.
+        aquí
+        </LinkButton>.
       </p>
       {
         // only display if at least one social link is enabled
@@ -72,7 +69,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       featuredPosts.length > 0 && (
         <>
           <section id="featured">
-            <h2>Featured</h2>
+            <h2>Mas relevante</h2>
             <ul>
               {featuredPosts.map(({ data }) => (
                 <Card
@@ -89,7 +86,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     }
 
     <section id="recent-posts">
-      <h2>Recent Posts</h2>
+      <h2>Posts recientes</h2>
       <ul>
         {
           sortedPosts.map(

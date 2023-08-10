@@ -1,36 +1,11 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "Acerca de mi"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
-
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+ Apasionada estudiante de Periodismo, enfocada en transmitir información de manera comprensible, fresca y cautivadora. He colaborado en medios como el Boletín EnRedando, la Revista Inquieta y Radio FMLaHormiga, donde he tenido la oportunidad de trabajar con grandes colegas. Tambien escribo independientemente y soy creadora del podcast "Malestar" disponible en Spotify. Me emociona seguir compartiendo historias y conectar con el mundo a través de mi trabajo.
 
 <div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+  <img src="https://media.licdn.com/dms/image/D5603AQHhhmLJ9kDwYA/profile-displayphoto-shrink_800_800/0/1677798030980?e=1697068800&v=beta&t=R33V8A58bGGf3-HO8cxOCPvZiDrq1FVO95Iu_FvbYlM" class="sm:w-1/2 mx-auto rounded-xl" alt="coding dev illustration">
 </div>
 
-## Tech Stack
-
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
-
-## Features
-
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
